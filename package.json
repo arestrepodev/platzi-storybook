@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-storybook": "test-storybook",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_7780961544d371a"
   },
   "keywords": [],
   "author": "",
@@ -22,11 +23,14 @@
     "@storybook/jest": "^0.2.3",
     "@storybook/test-runner": "^0.16.0",
     "@storybook/testing-library": "^0.2.2",
+    "chromatic": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.5.3"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^7.6.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "platzi-storybook@1.0.0"
 }
